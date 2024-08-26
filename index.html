@@ -10,7 +10,21 @@
 </head>
 
 <body>
-
+  <main>
+    <h1>Simple Translator App</h1>
+    <img src="translator-man.png" alt="Translator" height="360px"/>
+    
+    <div class="input-section">
+      <input type="text" name="word" id="word">
+      <select name="language" id="language">
+        <option value="spanish">Spanish</option>
+        <option value="malay">Malay</option>
+      </select>
+      <button type="button" onclick="translateText()">Translate</button>
+      <p id="result"></p>
+    </div>
+  </main>
+  <script type="module" src="./script.js"></script>
 </body>
 
 </html>
